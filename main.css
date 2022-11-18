@@ -1,0 +1,89 @@
+body { 
+   text-align: center; 
+   background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url(beach-1.jpg)no-repeat center center/cover; 
+   height: 100vh;
+   font-family: 'Orbitron', sans-serif; 
+   font-weight: 100; 
+}
+
+img {
+   width: 50%;
+   border-radius: 5px;
+}
+
+.countdown {
+   position: absolute;
+   left: 50%;
+   top: 50%;
+   transform: translate(-50%, -50%);
+}
+ 
+h1 { 
+   color: #ffff00; 
+   font-weight: 100; 
+   font-size: 40px; 
+   margin: 40px 0px 20px; 
+   text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+#clockdiv { 
+   font-family: 'Orbitron', sans-serif; 
+   color: #fff; 
+   display: inline-block; 
+   font-weight: 100; 
+   text-align: center; 
+   font-size: 30px;
+   margin-top: 50px;
+ } 
+
+#clockdiv > div { 
+   padding: 10px; 
+   border-radius: 3px; 
+   background: linear-gradient(#ffa500,#ff4500);
+   border: 2px solid #fff; 
+   display: inline-block; 
+}
+ 
+#clockdiv div > span { 
+   padding: 15px; 
+   border-radius: 3px; 
+   background: #0000ff;
+   border: 2px solid #ffff00;
+   display: inline-block; 
+}
+
+smalltext { 
+   padding-top: 5px; 
+   font-size: 16px; 
+} 
+
+@media (max-width: 1024px) {
+   #clockdiv {
+      font-size: 24px;
+   }
+}
+
+@media (max-width:820px) {
+   .countdown {
+      width: 90%;
+   }
+
+   #clockdiv {
+      font-size: 16px;
+   }
+}
+
+@media (max-width: 600px) {
+   #clockdiv {
+      display: flex;
+      font-size: 10px;
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+   }
+
+   img {
+      width: 75%;
+   }
+}
+
