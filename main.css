@@ -69,6 +69,10 @@ smalltext {
       width: 90%;
    }*/
 
+   img {
+      width: 75%;
+   }
+
    #clockdiv {
       font-size: 16px;
    }
