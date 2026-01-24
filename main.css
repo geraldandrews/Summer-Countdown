@@ -65,9 +65,9 @@ smalltext {
 }
 
 @media (max-width:820px) {
-   .countdown {
+  /* .countdown {
       width: 90%;
-   }
+   }*/
 
    #clockdiv {
       font-size: 16px;
