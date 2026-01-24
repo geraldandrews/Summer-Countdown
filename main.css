@@ -73,9 +73,9 @@ smalltext {
       width: 65%;
    }
 
-   #clockdiv {
+   /*#clockdiv {
       font-size: 16px;
-   }
+   }*/
 }
 
 @media (max-width: 600px) {
